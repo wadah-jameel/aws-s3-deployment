@@ -69,7 +69,7 @@ If using AWS CLI or SDK:
 ## Using AWS CLI
 
 ### Install AWS CLI
-```bash
+
 # macOS
 brew install awscli
 
@@ -117,7 +117,7 @@ File: `docs/troubleshooting.md`
 - Incorrect file path
 - Network connectivity issues
 - File size limitations
-
+```
 
 #### Step 7: Add Cleanup Instructions
 ```bash
@@ -126,7 +126,7 @@ File: `docs/troubleshooting.md`
 ⚠️ **Important**: Always clean up resources to avoid charges!
 
 ### Delete Files
-```bash
+
 aws s3 rm s3://your-bucket-name --recursive
 ```
 
@@ -138,6 +138,7 @@ aws s3 rb s3://your-bucket-name
 #### Step 8: Additional Enhancements
 
 ### 8.1 Add Contributing Guidelines
+```bash
 File: `CONTRIBUTING.md`
 ```markdown
 # Contributing to This Project
@@ -151,6 +152,7 @@ File: `CONTRIBUTING.md`
 - Keep explanations beginner-friendly
 - Test all instructions
 - Update documentation
+```
 
 #### 8.2 License and Legal
 
